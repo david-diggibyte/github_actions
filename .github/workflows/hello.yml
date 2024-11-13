@@ -1,0 +1,10 @@
+name: hello
+on: push 
+
+jobs: 
+   hello: 
+     runs-on: ubuntu-letest
+
+     steps:
+   - name: print hello
+     run: echo " HIII"
