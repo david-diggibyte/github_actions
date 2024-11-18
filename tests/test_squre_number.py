@@ -1,5 +1,8 @@
+import sys
+sys.path.append(r"C:\Users\DavidM\Documents\Documents_DE\git practice\github_actions\src")
+
 import unittest
-from src.square_number import square_number
+from squre_number import square_number
 
 class TestSquareNumber(unittest.TestCase):
     def test_square(self):
